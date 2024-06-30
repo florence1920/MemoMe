@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import List from "./pages/List.tsx"
+import Search from './pages/Search.tsx';
 function App() {
 
   return (
@@ -9,6 +10,7 @@ function App() {
       <Router>
         <Routes>
           <Route path='/' element={<List/>}/>
+          <Route path='/search' element={<Search/>}/>
         </Routes>
       </Router>
     </>
