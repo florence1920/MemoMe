@@ -1,7 +1,7 @@
-const List = () => {
-  return (
-    <div>List</div>
-  )
-}
+import styles from "../assets/styles/common.module.scss";
 
-export default List
+const List = () => {
+  return <div className={styles.test}>List</div>;
+};
+
+export default List;

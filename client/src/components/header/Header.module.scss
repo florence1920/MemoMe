@@ -1,0 +1,16 @@
+.headWrap {
+  height: 60px;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .logo {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .nav {
+    display: flex;
+    gap: 10px;
+    color: #8a8a8a;
+  }
+}
