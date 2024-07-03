@@ -1,3 +1,29 @@
-.test {
-  color: red;
+.entire {
+  width: 100vw;
+  height: 100vh;
+  .cover {
+    width: 100%;
+    height: 100%;
+    background-color: #f8f6f2;
+
+    position: fixed;
+    z-index: -1;
+
+    .innerCover {
+      width: 80%;
+      height: 100%;
+
+      display: flex;
+      justify-content: space-around;
+      position: absolute;
+      left: 10%;
+      > li {
+        width: 10%;
+        height: 100%;
+        border: 1px dashed #e3e3e3;
+        border-top: none;
+        border-bottom: none;
+      }
+    }
+  }
 }
